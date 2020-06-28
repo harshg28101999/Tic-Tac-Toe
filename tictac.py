@@ -40,11 +40,19 @@ def handle_turn(player):
     print (player + "'s turn")
     position = input("Choose a position from 1-9: ")
 
-    while position not in ["1", "2", "3", "4", "5", "6", "7", "8", "9"]:
-        position = input("Choose a position from 1-9: ")
+    valid = False
+    while not valid:
+
+        while position not in ["1", "2", "3", "4", "5", "6", "7", "8", "9"]:
+            position = input("Choose a position from 1-9: ")
     
 
-    position = int(position) - 1
+        position = int(position) - 1
+
+        if board[position] == "-":
+            valid = True
+        else:
+            print("You cannot use this spot. Go again")
 
     board[position] = player
     display_board()
@@ -146,18 +154,3 @@ def flip_player():
     return
 
 play_game()
-
-
-# board
-# Display board
-# Play game
-# handles turn 
-# Check win
-    # Check rows
-    # Check colums
-    # Check diagonals
-# Check tie
-# flip players 
-
-
-
