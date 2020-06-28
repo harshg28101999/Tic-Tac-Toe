@@ -44,15 +44,24 @@ def handle_turn(player):
     display_board()
 
 def check_if_game_over():
-    check_if_win()
+    check_for_winner()
     check_if_tie()
 
-def check_if_win():
+def check_for_winner():
     # Check rows
-    # Check colums 
+    # Check columns 
     # Check diagonals
     return 
 
+def check_rows():
+    return
+
+def check_columns():
+    return
+
+def check_diagonals():
+    return
+    
 def check_if_tie():
     return
 
