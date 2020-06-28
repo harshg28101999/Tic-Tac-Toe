@@ -6,5 +6,10 @@ This is a simulation of the game Tic Tac Toe. It currently fixes the players as 
 
 The project contains several different functions along with different function calls, which work to allow 2 users to play the game. 
 
+**Launch the Game**
+'''
+python3 tictac.py
+'''
+
 
 
