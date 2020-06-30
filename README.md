@@ -20,13 +20,39 @@ python3 tictac.py
 **Turn of the first player**
 
 When the python app is run at first then it would be show the following results.
-Here the game board is set up. 
+Here the game board is set up and asks for the position that the first players wants to play at.
 ```
  - | - | -
  - | - | -
  - | - | -
+X's turn
+Choose a position from 1-9: 
 
 ```
+
+**Turn of the second player**
+Say if the first player places 'X' at position 1. Then it would prompt 'O' to place their location on to the game board.
+Moreorver, it would show X and replace the place position of '-' which indicates an empty space. 
+```
+ X | - | -
+ - | - | -
+ - | - | -
+ 
+ - | - | -
+- | - | -
+- | - | -
+X's turn
+Choose a position from 1-9: 1
+X | - | -
+- | - | -
+- | - | -
+O's turn
+Choose a position from 1-9: 
+ 
+```
+This goes till a winner is decided.
+
+
 
 
 
