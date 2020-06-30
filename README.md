@@ -15,5 +15,9 @@ git clone https://github.com/harshg28101999/Tic-Tac-Toe.git
 python3 tictac.py
 ```
 
+## Flow of the Game
+
+**Turn of the first player**
+
 
 
