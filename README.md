@@ -25,8 +25,8 @@ Here the game board is set up and asks for the position that the first players w
  - | - | -
  - | - | -
  - | - | -
-X's turn
-Choose a position from 1-9: 
+ X's turn
+ Choose a position from 1-9: 
 
 ```
 
@@ -34,23 +34,22 @@ Choose a position from 1-9:
 Say if the first player places 'X' at position 1. Then it would prompt 'O' to place their location on to the game board.
 Moreorver, it would show X and replace the place position of '-' which indicates an empty space. 
 ```
+ - | - | -
+ - | - | -
+ - | - | -
+ X's turn
+ Choose a position from 1-9: 1
+ 
  X | - | -
  - | - | -
  - | - | -
- 
- - | - | -
-- | - | -
-- | - | -
-X's turn
-Choose a position from 1-9: 1
-X | - | -
-- | - | -
-- | - | -
-O's turn
-Choose a position from 1-9: 
+ O's turn
+ Choose a position from 1-9: 
  
 ```
 This goes till a winner is decided.
+
+**Once a winner it decided and hence declares who th winner is**
 
 
 
