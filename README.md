@@ -20,10 +20,11 @@ python3 tictac.py
 **Turn of the first player**
 
 When the python app is run at first then it would be show the following results.
+Here the game board is set up. 
 ```
- "-","-","-",
- "-","-","-",
- "-","-","-"
+ - | - | -
+ - | - | -
+ - | - | -
 
 ```
 
