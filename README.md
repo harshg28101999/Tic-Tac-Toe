@@ -21,6 +21,9 @@ python3 tictac.py
 
 When the python app is run at first then it would be show the following results.
 ```
+ "-","-","-",
+ "-","-","-",
+ "-","-","-"
 
 ```
 
