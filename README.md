@@ -10,6 +10,7 @@ The project contains several different functions along with different function c
 
 ```
 git clone https://github.com/harshg28101999/Tic-Tac-Toe.git
+git commit 
 ```
 **Launch the Game**
 
