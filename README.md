@@ -63,7 +63,7 @@ This goes till a winner is decided.
 
 ## Future Enhancements
 
-Some of the possible enhancements that could be made to this application would be:
+Some of the possible future enhancements that could be made to this application would be:
 * A function could be defined that would take the name of the players.
 * Each player is given a choice if he/she wants to be 'X' or 'O'.
 * A function could be defined to choose who goes first.
