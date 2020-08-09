@@ -149,8 +149,8 @@ def play_game():
     
     # Game has ended
     if winner == "X" or winner == "O":
-        print(winner + " won.")
+        print(winner + " wins the game.")
     elif winner == None:
-        print("Tie")
+        print("Its a tie!!")
 
 play_game()
